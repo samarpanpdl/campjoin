@@ -1,0 +1,135 @@
+.logo-bar {
+  width: 100vw;
+  min-width: 1440px;
+  height: 70px;
+  background: #c6eafd;
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar-bar {
+  width: 100vw;
+  min-width: 1440px;
+  height: 100px;
+  background: #e6f6ff;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #000;
+}
+
+.navbar-avatar {
+  width: 64px;
+  height: 64px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  margin-left: 32px;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-separator {
+  width: 2px;
+  height: 500px;
+  background: #000;
+  margin: 0 36px;
+  margin-left: 100px;
+}
+
+.nav {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #222;
+  cursor: pointer;
+  padding: 0 40px;
+  justify-content: center;
+  height: 100%;
+}
+
+.nav-item span:first-child {
+  font-size: 2rem;
+  margin-bottom: 2px;
+}
+
+.nav-item.settings {
+  margin-left: 30px;
+}
+
+
+
+.logo-bar {
+  background-color: #cfeafd;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+.logo {
+  color: #333;
+}
+
+.navbar-bar {
+  display: flex;
+  align-items: center;
+  background-color: #e6f6ff;
+  padding: 0 24px;
+  height: 70px;
+  border-bottom: 2px solid #000;
+}
+
+.navbar-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  margin-right: 16px;
+}
+
+.navbar-separator {
+  width: 2px;
+  height: 40px;
+  background: #000;
+  margin-right: 16px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-grow: 1;
+}
+
+.nav-item {
+  font-size: 16px;
+  color: #222;
+  cursor: pointer;
+}
+
+.nav-item.welcome {
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 16px;
+}

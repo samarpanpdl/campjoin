@@ -1,0 +1,60 @@
+.main-content {
+  flex: 1;
+  background: #ededed;
+  padding: 30px 0 0 0;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-section {
+  background: #fff;
+  border-radius: 28px;
+  padding: 32px 32px 32px 32px;
+  margin-bottom: 30px;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-message {
+  font-size: 2rem;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #222;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.brain-icon {
+  font-size: 2.2rem;
+}
+.search-buttons {
+  display: flex;
+  gap: 32px;
+}
+.discover-btn,
+.seniors-btn {
+  background: #c6eafd;
+  border: none;
+  border-radius: 22px;
+  padding: 12px 36px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #222;
+  cursor: pointer;
+  margin-bottom: 0;
+  margin-top: 0;
+  transition: background 0.2s;
+}
+.discover-btn:hover,
+.seniors-btn:hover {
+  background: #b0e0ff;
+}
+.user-cards-section {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}

@@ -1,0 +1,9 @@
+.homepage-container {
+  min-height: 100vh;
+  background: #555;
+}
+.body-section {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 70px);
+}
